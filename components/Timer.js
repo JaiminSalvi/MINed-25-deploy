@@ -59,9 +59,10 @@ const CountdownTimer = ({ targetDate }) => {
           position={"fixed"}
           bottom="0"
           right="0"
-          height={"7vw"}
-          minHeight={"70px"}
-          maxHeight={"90px"}
+          height={"8vw"}
+          minHeight={"100px"}
+          maxHeight={"110px"}
+          p="1"
           display={"flex"}
           flexDirection={"column"}
           alignItems={"center"}

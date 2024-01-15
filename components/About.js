@@ -18,10 +18,17 @@ export default function About() {
       <Heading color={"#4299E1"}>About the Event</Heading>
       <Box display={["block", "flex"]} gap={4} paddingBlock={8}>
         <Image
-          src="https://images.unsplash.com/photo-1661956602944-249bcd04b63f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxNnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+          src={"./h4.jpeg"}
           flex={1}
           borderRadius={"lg"}
           marginBottom={[8, 0]}
+          style={{
+            width: '100%',        
+            height: 'auto',       
+            maxWidth: '650px',    
+            maxHeight: '300px', 
+            padding: '4px'  
+          }}
         />
         <Box flex={2} fontSize={"lg"}>
           <Flex
