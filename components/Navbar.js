@@ -40,7 +40,7 @@ export default function Navbar() {
             _hover={{ color: "" }}
             // leftIcon={< h={4} w={4} color={"gray.300"} />}
             as={Link}
-            href='https://discord.gg/CT2YGpNhXr'
+            href='https://docs.google.com/forms/d/1QCEvYeONzyji_bxD5VJMcgZhq5foWShC3wVAfT6JvIY/viewform?edit_requested=true'
           >
             {/*  </Button> */}
             Register
