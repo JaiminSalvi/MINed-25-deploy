@@ -12,7 +12,7 @@ import Link from "next/link";
 
 export default function Partners() {
   return (
-    <Box marginBlock={16} id="partners">
+    <Box marginBlock={16} id="partners" style={{ display: "none" }}>
       <Heading color={"#4299E1"} marginBlock={"8"}>Partners</Heading>
       <Grid
         h="auto"
