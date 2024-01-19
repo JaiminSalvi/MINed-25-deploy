@@ -12,8 +12,8 @@ import Link from "next/link";
 
 export default function Partners() {
   return (
-    <Box marginBlock={16} id="partners" style={{ display: "none" }}>
-      <Heading color={"#4299E1"} marginBlock={"8"}>Partners</Heading>
+    <Box marginBlock={16} id="partners">
+      <Heading color={"#4299E1"} marginBlock={"8"}>Past Partners</Heading>
       <Grid
         h="auto"
         templateRows={{ sm: "repeat(8, 1fr)", md: "repeat(1, 1fr)" }}
