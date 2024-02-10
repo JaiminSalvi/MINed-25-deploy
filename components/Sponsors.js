@@ -12,15 +12,17 @@ import Link from "next/link";
 
 export default function Sponsors() {
   return (
-    <Box marginBlock={16} id="sponsors">
-      <Heading color={"#4299E1"}  marginBlock={"8"}> Past Sponsors</Heading>
+    <Box  marginBlock={16} id="sponsors">
+      <Heading color={"#4299E1"}  marginBlock={"8"}>Sponsors</Heading>
       <Grid
         h="min-content"
         templateRows={{ sm: "repeat(8, 1fr)", md: "repeat(1, 1fr)" }}
         templateColumns={{ sm: "repeat(1, 1fr)", md: "repeat(4, 1fr)" }}
-        gap={4}
+        display="flex"
+        flexWrap="wrap"
         justifyContent="center"
         alignItems="center"
+        gap={15}
         bg={"white"}
         borderRadius={"30px"}
       >
@@ -39,19 +41,6 @@ export default function Sponsors() {
           </Link>
         </GridItem>
 
-        <GridItem
-          cursor={"pointer"}
-          display={"flex"}
-          justifyContent={"center"}
-          alignItems={"center"}
-          height="48"
-        >
-          <Link href={"https://d360.tech/"} target="_blank">
-            <Image src="/d360.png" 
-            // 
-            />
-          </Link>
-        </GridItem>
 
         <GridItem
           cursor={"pointer"}
@@ -80,26 +69,14 @@ export default function Sponsors() {
             />
           </Link>
         </GridItem>
-
+        <br/>
         <GridItem
           cursor={"pointer"}
           display={"flex"}
           justifyContent={"center"}
           alignItems={"center"}
           height="48"
-        >
-          <Link href={"https://www.infocusp.com/home"} target="_blank">
-            <Image src="/infocusp.png"
-            
-            />
-          </Link>
-        </GridItem>
-        <GridItem
-          cursor={"pointer"}
-          display={"flex"}
-          justifyContent={"center"}
-          alignItems={"center"}
-          height="48"
+          marginRight="20"
         >
           <Link href={"https://theintechgroup.com/"} target="_blank">
             <Image src="/intech.png"
@@ -116,7 +93,7 @@ export default function Sponsors() {
           alignItems={"center"}
         >
           <Link href={"#"} target="">
-            <Image src="/ai_city.png" height="48" 
+            <Image src="/revelio.png" height="48" 
                 marginBottom={"10px"}
             />
           </Link>
