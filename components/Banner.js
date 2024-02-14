@@ -60,7 +60,7 @@ export default function CallToActionWithVideo() {
               px={6}
               leftIcon={<FaDiscord h={4} w={4} color={"gray.300"} />}
               as={Link}
-              href="https://discord.gg/CT2YGpNhXr"
+              href=""
             >
               Join Discord
             </Button>
