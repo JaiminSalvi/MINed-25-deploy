@@ -36,7 +36,7 @@ export default function Contact() {
           <Mentors />
           <Schedule />
           <Sponsors />
-          <Partners />
+       
         </Box>
         <Footer />
       </Container>
