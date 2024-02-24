@@ -33,7 +33,7 @@ export default function Tracks() {
         <GridItem p="4">
           <TrackCard
             imageUrl="https://image.lexica.art/full_jpg/be1f98f4-31b0-4d8b-b13b-2ed3d4d8f001"
-            trackName="Cactus AI4Researchers by Cactus"
+            trackName="AI4Researchers by Cactus"
           />
         </GridItem>
         <GridItem p="4">
