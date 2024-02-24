@@ -34,13 +34,6 @@ export default function Mentors() {
       company: "J K Organisation(Udaipur Cement Works Ltd.)",
     },
     {
-      name: "Saktipada Maity",
-      image: "/Saktipada_Maity.jpg",
-      linkedIn: "https://www.linkedin.com/in/saktipada-maity-10b08330/",
-      designation: "",
-      company: "Cognizant",
-    },
-    {
       name: "Manil Shah",
       image: "/manil.jpeg",
       linkedIn: "https://www.linkedin.com/in/manilshah913/",
