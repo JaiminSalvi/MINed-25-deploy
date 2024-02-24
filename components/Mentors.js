@@ -60,7 +60,7 @@ export default function Mentors() {
   ];
   return (
     <Box marginBlock={16} id="mentors">
-      <Heading color={"#4299E1"} marginBlock={"8"}> Past Mentors</Heading>
+      <Heading color={"#4299E1"} marginBlock={"8"}> Mentors</Heading>
       <Grid
         alignItems="center"
         templateColumns={{ sm: "repeat(1, 1fr)", md: "repeat(4, 1fr)" }}
