@@ -28,7 +28,7 @@ export default function Footer() {
       <div>
         <ul className="socials-list">
           <li>
-            <Link href="https://discord.gg/CT2YGpNhXr" target="_blank">
+            <Link href="" target="_blank">
               <FaDiscord />
             </Link>
           </li>
