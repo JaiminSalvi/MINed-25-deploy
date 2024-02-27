@@ -34,6 +34,13 @@ export default function Mentors() {
       company: "J K Organisation(Udaipur Cement Works Ltd.)",
     },
     {
+      name: "Praxal Patel",
+      image: "/praxal_patel.jpeg",
+      linkedIn: "https://www.linkedin.com/in/praxal/",
+      designation: "Data Scientist",
+      company: "Revelio Labs",
+    },
+    {
       name: "Manil Shah",
       image: "/manil.jpeg",
       linkedIn: "https://www.linkedin.com/in/manilshah913/",
