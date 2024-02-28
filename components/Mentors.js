@@ -19,15 +19,7 @@ export default function Mentors() {
       designation: "AI @ Cactus Labs",
       company: "",
     },
-    {
-      name: "Dvijesh Bhatt",
-      image: "/dwijesh_bhatt.jpeg",
-      linkedIn: "https://www.linkedin.com/in/dvijesh-bhatt-76283920/",
-      designation: "Senior Data Scientist",
-      company: "Fractal Analytics",
-    },   
-    
-    {
+     {
       name: "Praxal Patel",
       image: "/praxal_patel.jpeg",
       linkedIn: "https://www.linkedin.com/in/praxal/",
@@ -42,29 +34,54 @@ export default function Mentors() {
       company: "Intech",
     },
     {
-      name: "Manil Shah",
-      image: "/manil.jpeg",
-      linkedIn: "https://www.linkedin.com/in/manilshah913/",
-      designation:
-        "Student of CSE at Institute of Technology, Nirma University",
-      company: "",
+      name: "Dvijesh Bhatt",
+      image: "/dwijesh_bhatt.jpeg",
+      linkedIn: "https://www.linkedin.com/in/dvijesh-bhatt-76283920/",
+      designation: "Senior Data Scientist",
+      company: "Fractal Analytics",
+    }, 
+    {
+     name: "Bhargav Modha",
+      image: "/bhargav_modha.jpeg",
+      linkedIn: "https://www.linkedin.com/in/bhargav-modha/",
+      designation: "ML Intern",
+      company: "Cactus ",
+    }, 
+     {
+      name: "Uneet Kumar Singh",
+      image: "/uneet_kumar.jpeg",
+      linkedIn: "https://www.linkedin.com/in/uneetkumarsingh/",
+      designation: "Software Engineer",
+      company: "Cactus",
+    }, 
+     {
+      name: "Chaitanya Malhotra",
+      image: "/chaitanya_malhotra.jpeg",
+      linkedIn: "https://www.linkedin.com/in/chaitanya-malhotra-05973013b/",
+      designation: "Software Engineer",
+      company: "Cactus",
+    }, 
+     {
+      name: "Pooja Mehta",
+      image: "/pooja_mehta.jpeg",
+      linkedIn: "https://www.linkedin.com/in/pooja-mehta-9986b913a/",
+      designation: "Team Lead",
+      company: "Cactus",
     },
     {
-      name: "Hardik Maisuria",
-      image: "/hardik.jpeg",
-      linkedIn: "https://www.linkedin.com/in/hardik-maisuria-675370208/",
-      designation:
-        "Student of CSE at Institute of Technology, Nirma University",
-      company: "",
+      name: "Kshitij Sabarwal",
+      image: "/kshitij.jpeg",
+      linkedIn: "https://www.linkedin.com/in/kshitij-sabarwal-5647ab169/",
+      designation: "Senior Software Engineer",
+      company: "Cactus",
     },
-    {
-      name: "Kalp Mepani",
-      image: "/kalp.jpeg",
-      linkedIn: "https://www.linkedin.com/in/kalp-mepani-5350671a2/",
-      designation:
-        "Student of CSE at Institute of Technology, Nirma University",
-      company: "",
-    },
+    
+     
+  
+    
+    
+   
+    
   ];
   return (
     <Box marginBlock={16} id="mentors">
