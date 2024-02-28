@@ -24,12 +24,7 @@ export default function Tracks() {
             trackName="PeopleMetrics: Shaping the next gen workforce by Revelio Labs"
           />
         </GridItem>
-        <GridItem p="4">
-          <TrackCard
-            imageUrl="https://image.lexica.art/full_jpg/58e2902c-29dd-49ce-9149-3c4975b9d468"
-            trackName="Computer Vision by JK Lakshmi Cement"
-          />
-        </GridItem>
+        
         <GridItem p="4">
           <TrackCard
             imageUrl="https://image.lexica.art/full_jpg/be1f98f4-31b0-4d8b-b13b-2ed3d4d8f001"
