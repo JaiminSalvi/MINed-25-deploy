@@ -26,13 +26,7 @@ export default function Mentors() {
       designation: "Senior Product Engineer (AI/ML)",
       company: "Myelin Foundry",
     },   
-    {
-      name: "Deepak Sharma",
-      image: "/deepak_sharma.jpg",
-      linkedIn: "https://www.linkedin.com/in/deepak-sharma-a528b015/",
-      designation: "Sr. Manager (IT)",
-      company: "J K Organisation(Udaipur Cement Works Ltd.)",
-    },
+    
     {
       name: "Praxal Patel",
       image: "/praxal_patel.jpeg",
