@@ -129,10 +129,7 @@ export default function Faqs() {
           q: "What should be the team size?",
           a: "Team Size may be of 3-5 members.",
         },
-        {
-          q: "What if I don't have a team? ",
-          a: "Don't worry! You can send team joining request to public teams and become part of them. If this doesn't work, our team assignment algorithm will assign you a team before the event starts!",
-        },
+        
         {
           q: "Only students that belong to same College/ Branch can form a team?",
           a: "No. A team can consist of members belonging to any college as well as any discipline. However, every team member needs to be individually registered before forming a team.",
