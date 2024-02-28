@@ -16,8 +16,8 @@ export default function Mentors() {
       name: "Parth A.",
       image: "/parthA.jpeg",
       linkedIn: "https://www.linkedin.com/in/htrap94/",
-      designation: "AI @ Cactus Labs",
-      company: "",
+      designation: "AI Product Manager",
+      company: "Cactus",
     },
      {
       name: "Praxal Patel",
