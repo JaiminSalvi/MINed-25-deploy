@@ -42,19 +42,7 @@ export default function Sponsors() {
         </GridItem>
 
 
-        <GridItem
-          cursor={"pointer"}
-          display={"flex"}
-          justifyContent={"center"}
-          alignItems={"center"}
-          height="48"
-        >
-          <Link href={"https://www.jklakshmicement.com/"} target="_blank">
-            <Image src="/jk.png" 
-            filter="brightness(200%)"
-            />
-          </Link>
-        </GridItem>
+       
         <GridItem
           cursor={"pointer"}
           display={"flex"}
