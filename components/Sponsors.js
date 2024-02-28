@@ -43,20 +43,7 @@ export default function Sponsors() {
 
 
        
-        <GridItem
-          cursor={"pointer"}
-          display={"flex"}
-          justifyContent={"center"}
-          alignItems={"center"}
-          height="48"
-        >
-          <Link href={"#"} target="_blank">
-            <Image src="/ucwl.jpg" 
-            
-            // filter="brightness(150%)"
-            />
-          </Link>
-        </GridItem>
+        
         <br/>
         <GridItem
           cursor={"pointer"}
