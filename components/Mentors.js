@@ -21,10 +21,10 @@ export default function Mentors() {
     },
     {
       name: "Dvijesh Bhatt",
-      image: "/dvijesh_bhatt.jpeg",
+      image: "/dwijesh_bhatt.jpeg",
       linkedIn: "https://www.linkedin.com/in/dvijesh-bhatt-76283920/",
-      designation: "Senior Product Engineer (AI/ML)",
-      company: "Myelin Foundry",
+      designation: "Senior Data Scientist",
+      company: "Fractal Analysis",
     },   
     
     {
