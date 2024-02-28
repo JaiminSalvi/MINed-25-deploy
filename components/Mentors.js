@@ -24,7 +24,7 @@ export default function Mentors() {
       image: "/dwijesh_bhatt.jpeg",
       linkedIn: "https://www.linkedin.com/in/dvijesh-bhatt-76283920/",
       designation: "Senior Data Scientist",
-      company: "Fractal Analysis",
+      company: "Fractal Analytics",
     },   
     
     {
