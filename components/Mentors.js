@@ -35,6 +35,13 @@ export default function Mentors() {
       company: "Revelio Labs",
     },
     {
+      name: "Meenaxi Tank",
+      image: "/meenaxi_tank.jpeg",
+      linkedIn: "https://www.linkedin.com/in/meenaxi-tank-6803a6a0/",
+      designation: "AI/ML Engineer",
+      company: "Intech",
+    },
+    {
       name: "Manil Shah",
       image: "/manil.jpeg",
       linkedIn: "https://www.linkedin.com/in/manilshah913/",
