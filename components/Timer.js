@@ -2,10 +2,11 @@ import { Box, Text } from "@chakra-ui/react";
 import React from "react";
 import NoSSR from "./NoSSR";
 import { useCountdown } from "./Timerhook";
+import {useColorModeValue } from "@chakra-ui/react";
 
 const ExpiredNotice = () => {
   return (
-    <Box zIndex={100} bgColor="white" bgGradient="linear(90deg, hsla(0, 100%, 67%, 1) 0%, hsla(0, 100%, 89%, 1) 100%)" className="expired-notice">
+    <Box zIndex={100}  bgGradient= bgGradient="linear(90deg, hsla(210, 90%, 80%, 1) 0%, hsla(212, 93%, 49%, 1) 100%)" className="expired-notice">
       <span>The MINeD'24 has officially begun. Let the coding frenzy commence!</span>
     </Box>
   );
