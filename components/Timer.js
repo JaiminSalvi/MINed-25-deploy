@@ -2,7 +2,7 @@ import { Box, Text } from "@chakra-ui/react";
 import React from "react";
 import NoSSR from "./NoSSR";
 import { useCountdown } from "./Timerhook";
-import {useColorModeValue } from "@chakra-ui/react";
+
 
 const ExpiredNotice = () => {
   return (
