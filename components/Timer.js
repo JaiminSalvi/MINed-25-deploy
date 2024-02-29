@@ -18,7 +18,7 @@ const ExpiredNotice = () => {
 //        color="black" // or textColor="black"
 // >
 //   <span>The MINeD'24 has officially begun. Let the coding frenzy commence!</span>
-</Box>
+//</Box
     <Box
   zIndex={100}
   fontWeight="black"
