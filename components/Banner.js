@@ -41,9 +41,9 @@ export default function CallToActionWithVideo() {
               MINeD Hackathon 2024
             </Text>
             <br />
-            <Text fontSize="2xl" marginTop="4" color={"blue.400"}>
+            {/* <Text fontSize="2xl" marginTop="4" color={"blue.400"}>
               From 29<sup>th</sup> February to 2<sup>nd</sup> March 2024.
-            </Text>
+            </Text> */}
             <Text as={"span"} fontSize={["lg", "xl"]} fontWeight="black">
               Participate and win exciting prizes
             </Text>

@@ -13,8 +13,8 @@ import Link from "next/link";
 export default function Partners() {
   return (
     <Box marginBlock={16} id="partners">
-      <Heading color={"#4299E1"} marginBlock={"8"}>Past Partners</Heading>
-      <Grid
+      <Heading color={"#4299E1"} marginBlock={"8"}> Partners</Heading>
+      {/* <Grid
         h="auto"
         templateRows={{ sm: "repeat(8, 1fr)", md: "repeat(1, 1fr)" }}
         templateColumns={{ sm: "repeat(1, 1fr)", md: "repeat(4, 1fr)" }}
@@ -57,7 +57,7 @@ export default function Partners() {
             <Image src="/echo3D_Logo.png" width={48} />
           </Link>
         </GridItem>
-      </Grid>
+      </Grid> */}
     </Box>
   );
 }

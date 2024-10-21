@@ -33,7 +33,7 @@ export default function App({ Component, pageProps }) {
         <b>Hackathon ended!! Go to events page to see the winner's list</b>
       </Text> */}
       <Component {...pageProps} />
-     // <CountDownTimer targetDate={dateTimeForHackathon} />
+     {/*  <CountDownTimer targetDate={dateTimeForHackathon} /> */}
       </Box>
     </ChakraProvider>
   );
