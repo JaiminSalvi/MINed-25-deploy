@@ -9,11 +9,21 @@ import {
   Image,
   Icon,
   useColorModeValue,
+  Modal,
+  ModalOverlay,
+  ModalContent,
+  ModalBody,
+  ModalCloseButton,
+  useDisclosure,
 } from "@chakra-ui/react";
 import Link from "next/link";
+import { useState } from "react";
 import { FaDiscord } from "react-icons/fa";
 
 export default function CallToActionWithVideo() {
+  const [isOpened, setOpened] = useState(false);
+  const { isOpen, onOpen, onClose } = useDisclosure();
+
   return (
     <Container maxW={"7xl"}>
       <Stack
@@ -41,9 +51,6 @@ export default function CallToActionWithVideo() {
               MINeD Hackathon 2025
             </Text>
             <br />
-            {/* <Text fontSize="2xl" marginTop="4" color={"blue.400"}>
-              From 29<sup>th</sup> February to 2<sup>nd</sup> March 2025.
-            </Text> */}
             <Text as={"span"} fontSize={["lg", "xl"]} fontWeight="black">
               Participate and win exciting prizes
             </Text>
@@ -59,8 +66,7 @@ export default function CallToActionWithVideo() {
               fontWeight={"normal"}
               px={6}
               leftIcon={<FaDiscord h={4} w={4} color={"gray.300"} />}
-              as={Link}
-              href=""
+              onClick={onOpen}
             >
               Join Discord
             </Button>
@@ -96,13 +102,45 @@ export default function CallToActionWithVideo() {
               align={"top"}
               w={"100%"}
               h={"100%"}
-              src={
-                "/h3.jpeg"
-              }
+              src={"/h3.jpeg"}
             />
           </Box>
         </Flex>
       </Stack>
+      <Modal isOpen={isOpen} onClose={onClose} isCentered motionPreset="scale">
+        <ModalOverlay />
+        <ModalContent
+          bg="white"
+          borderRadius="2xl"
+          boxShadow="2xl"
+          color="black"
+          p={6}
+          textAlign="center"
+        >
+          <ModalCloseButton color="black" _hover={{ color: "blue.500" }} />
+          <ModalBody fontSize="lg" py={6}>
+            <p>
+              🚀<strong>Discord link will be activated soon!</strong> Stay tuned
+              for updates.
+            </p>
+            <Button
+              mt={4}
+              size="md"
+              bg="blue.500"
+              _hover={{
+                bg: "blue.600",
+                transform: "scale(1.05)",
+                boxShadow: "lg",
+              }}
+              color="white"
+              rounded="full"
+              onClick={onClose}
+            >
+              Got it!
+            </Button>
+          </ModalBody>
+        </ModalContent>
+      </Modal>
     </Container>
   );
 }

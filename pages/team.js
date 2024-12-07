@@ -85,21 +85,21 @@ function Coordinators() {
     >
       {coordinators.map((ad) => (
         <GridItem
-        _hover={{
-          border: "1px solid transparent", // Set initial border to transparent
-          boxShadow: "0 0 6px 1.5px white, 0 0 20px 6px white, 0 0 15px 6px white", // Glowing effect
-          transition: "box-shadow 0.5s ease-in-out",
-          borderRadius:"30px",
-          // bgColor: "white",
-          color:"white",
-        }}
+          _hover={{
+            border: "1px solid transparent", // Set initial border to transparent
+            boxShadow:
+              "0 0 6px 1.5px white, 0 0 20px 6px white, 0 0 15px 6px white", // Glowing effect
+            transition: "box-shadow 0.5s ease-in-out",
+            borderRadius: "30px",
+            // bgColor: "white",
+            color: "white",
+          }}
         >
           <TeamCard
             url={ad.image}
             name={ad.name}
             description={""}
             link={ad.linkedIn}
-            
           />
         </GridItem>
       ))}
@@ -114,11 +114,24 @@ function Advisor() {
       image: "/dr_rn_patel.jpg",
       linkedIn: "https://www.linkedin.com/in/rajesh-patel-b5144256/",
     },
+    // {
+    //   name: "Dr Himanshu Soni",
+    //   designation: "Director",
+    //   image: "/dr_himanshu_soni.jpeg",
+    //   linkedIn: "https://www.linkedin.com/in/dr-himanshu-soni-4358916/",
+    // },
+    // {
+    //   name: "Dr Sudeep Tanwar",
+    //   designation: "HOD",
+    //   image: "/dr_sudeep_tanwar.jpeg",
+    //   linkedIn: "https://www.linkedin.com/in/sudeep-tanwar-7a898324/",
+    // },
     {
       name: "Dr Madhuri Bhavsar",
       image: "/dr_madhuri_bhavsar.jpg",
       linkedIn: "https://www.linkedin.com/in/dr-madhuri-gujar-bhavsar-3bb61a6/",
     },
+
     {
       name: "Dr Sangwon Yoon",
       image: "/dr_yoon.jpg",
@@ -145,14 +158,15 @@ function Advisor() {
     >
       {advisors.map((ad) => (
         <GridItem
-        _hover={{
-          border: "1px solid transparent", // Set initial border to transparent
-          boxShadow: "0 0 6px 1.5px white, 0 0 20px 6px white, 0 0 15px 6px white", // Glowing effect
-          transition: "box-shadow 0.5s ease-in-out",
-          borderRadius:"30px",
-          // bgColor: "white",
-          color:"white",
-        }}
+          _hover={{
+            border: "1px solid transparent", // Set initial border to transparent
+            boxShadow:
+              "0 0 6px 1.5px white, 0 0 20px 6px white, 0 0 15px 6px white", // Glowing effect
+            transition: "box-shadow 0.5s ease-in-out",
+            borderRadius: "30px",
+            // bgColor: "white",
+            color: "white",
+          }}
         >
           <TeamCard
             url={ad.image}
@@ -172,21 +186,6 @@ function Developers() {
       name: "Vanshil Vaghasiya",
       image: "/Vanshil.jpeg",
       linkedIn: "https://www.linkedin.com/in/vanshilpatel/",
-    },
-    {
-      name: "Naitik Prajapati ",
-      image: "/naitik.png",
-      linkedIn: "https://www.linkedin.com/in/naitik554/",
-    },
-    {
-      name: "Urvish Patel",
-      image: "/urvish.jpeg",
-      linkedIn: "https://linkedin.com/in/urvishpatel1609/",
-    },
-    {
-      name: "Parthraj Mori",
-      image: "/parthraj.jpeg",
-      linkedIn: "https://www.linkedin.com/in/parthrajsinh-mori-2010b0274/",
     },
     {
       name: "Kajal Lochab",
@@ -214,11 +213,6 @@ function Developers() {
       linkedIn:
         "https://www.linkedin.com/in/jaimin-salvi-6786442a6/?trk=contact-info",
     },
-    {
-      name: "Het Chaudhari",
-      image: "/het.jpeg",
-      linkedIn: "https://www.linkedin.com/in/het-chaudhari-70288728a/",
-    },
   ];
   return (
     <Grid
@@ -230,14 +224,15 @@ function Developers() {
     >
       {developers.map((dev) => (
         <GridItem
-        _hover={{
-          border: "1px solid transparent", // Set initial border to transparent
-          boxShadow: "0 0 6px 1.5px white, 0 0 20px 6px white, 0 0 15px 6px white", // Glowing effect
-          transition: "box-shadow 0.5s ease-in-out",
-          borderRadius:"30px",
-          // bgColor: "white",
-          color:"white",
-        }}
+          _hover={{
+            border: "1px solid transparent", // Set initial border to transparent
+            boxShadow:
+              "0 0 6px 1.5px white, 0 0 20px 6px white, 0 0 15px 6px white", // Glowing effect
+            transition: "box-shadow 0.5s ease-in-out",
+            borderRadius: "30px",
+            // bgColor: "white",
+            color: "white",
+          }}
         >
           <TeamCard
             url={dev.image}
