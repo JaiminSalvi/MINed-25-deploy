@@ -18,6 +18,25 @@ export default function Navbar() {
   const [isOpened, setOpened] = useState(false);
   const { isOpen, onOpen, onClose } = useDisclosure(); // Chakra UI hook for modal management
 
+  const handleMenuToggle = () => {
+    const value = ulRef.current.dataset.open;
+    if (value === "true") {
+      ulRef.current.dataset.open = "false";
+      menuRef.current.dataset.open = "false";
+      setOpened(false);
+    } else {
+      ulRef.current.dataset.open = "true";
+      menuRef.current.dataset.open = "true";
+      setOpened(true);
+    }
+  };
+
+  const handleCloseNavbar = () => {
+    ulRef.current.dataset.open = "false";
+    menuRef.current.dataset.open = "false";
+    setOpened(false);
+  };
+
   return (
     <nav className="primary-nav container">
       <div className="logo">
@@ -41,34 +60,39 @@ export default function Navbar() {
         <li>
           <Button
             rounded={"full"}
-            // colorScheme={"blue"}
             size={"lg"}
             fontWeight={"normal"}
             px={6}
             className="register-btn"
             color={"black"}
             _hover={{ color: "#4299e1" }}
-            // leftIcon={< h={4} w={4} color={"gray.300"} />}
-            // as={Link}
-
-            onClick={onOpen} // Opens the modal
+            onClick={() => {
+              onOpen(); // Opens the modal
+              handleCloseNavbar(); // Closes the navbar
+            }}
           >
             Register
           </Button>
         </li>
         <li>
-          <Link href="/" color="white">
+          <Link href="/" onClick={handleCloseNavbar}>
             About
           </Link>
         </li>
         <li>
-          <Link href="/events">Events</Link>
+          <Link href="/events" onClick={handleCloseNavbar}>
+            Events
+          </Link>
         </li>
         <li>
-          <Link href="/team">Team</Link>
+          <Link href="/team" onClick={handleCloseNavbar}>
+            Team
+          </Link>
         </li>
         <li>
-          <Link href="/contact">Contact</Link>
+          <Link href="/contact" onClick={handleCloseNavbar}>
+            Contact
+          </Link>
         </li>
       </ul>
       <button
@@ -76,18 +100,7 @@ export default function Navbar() {
         id="menu"
         ref={menuRef}
         data-open="false"
-        onClick={() => {
-          const value = ulRef.current.dataset.open;
-          if (value === "true") {
-            ulRef.current.dataset.open = "false";
-            menuRef.current.dataset.open = "false";
-            setOpened(false);
-          } else {
-            ulRef.current.dataset.open = "true";
-            menuRef.current.dataset.open = "true";
-            setOpened(true);
-          }
-        }}
+        onClick={handleMenuToggle}
       >
         {!isOpened && (
           <Image
@@ -95,7 +108,7 @@ export default function Navbar() {
             width={32}
             height={31}
             alt="Menu Icon for Opening the menu"
-          ></Image>
+          />
         )}
         {isOpened && (
           <Image
@@ -103,7 +116,7 @@ export default function Navbar() {
             width={32}
             height={31}
             alt="Menu Icon for Closing the menu"
-          ></Image>
+          />
         )}
       </button>
 
