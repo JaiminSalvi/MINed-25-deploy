@@ -11,7 +11,7 @@ import {
 export default function Tracks() {
   return (
     <Box marginBlock={16} id="tracks">
-      <Heading color={"#4299E1"} marginBlock={"8"}>Tracks</Heading>
+      <Heading color={"#4299E1"} marginBlock={"8"}>Previous Tracks</Heading>
       <Grid
         gridAutoRows="1fr"
         templateColumns={{ sm: "repeat(1, 1fr)", md: "repeat(3, 1fr)" }}
