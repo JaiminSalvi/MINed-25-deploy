@@ -58,7 +58,7 @@ export default function Navbar() {
         ref={ulRef}
       >
         <li>
-          <a href="https://forms.gle/zGm1F238RdrPtKNK6">
+          <a href="https://forms.gle/zGm1F238RdrPtKNK6" style={{ textDecoration: "none", color: "inherit" }}>
             <Button
               rounded={"full"}
               size={"lg"}
