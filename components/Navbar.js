@@ -57,7 +57,7 @@ export default function Navbar() {
         data-open="false"
         ref={ulRef}
       >
-        <li>
+        // <li>
           <a href="https://forms.gle/zGm1F238RdrPtKNK6" style={{ textDecoration: "none", color: "inherit" }}>
             <Button
               rounded={"full"}
@@ -71,7 +71,7 @@ export default function Navbar() {
               Register
             </Button>
           </a>
-        </li>
+        // </li>
         <li>
           <Link href="/" onClick={handleCloseNavbar}>
             About
@@ -117,44 +117,6 @@ export default function Navbar() {
           />
         )}
       </button>
-
-      {/* Modal for Registration */}
-      <Modal isOpen={isOpen} onClose={onClose} isCentered motionPreset="scale">
-        <ModalOverlay />
-        <ModalContent
-          bg="white"
-          borderRadius="2xl"
-          boxShadow="2xl"
-          color="black"
-          p={6}
-          textAlign="center"
-          transform="translateY(-20px)"
-          animation="ease-in 0.3s"
-        >
-          <ModalCloseButton color="black" _hover={{ color: "blue.500" }} />
-          <ModalBody fontSize="lg" py={6}>
-            <p>
-              🚀 <strong>Registration will be starting soon!</strong> Stay tuned
-              for updates.
-            </p>
-            <Button
-              mt={4}
-              size="md"
-              bg="blue.500"
-              _hover={{
-                bg: "blue.600",
-                transform: "scale(1.05)",
-                boxShadow: "lg",
-              }}
-              color="white"
-              rounded="full"
-              onClick={onClose}
-            >
-              Got it!
-            </Button>
-          </ModalBody>
-        </ModalContent>
-      </Modal>
     </nav>
   );
 }
