@@ -57,7 +57,7 @@ export default function Navbar() {
         data-open="false"
         ref={ulRef}
       >
-        // <li>
+        <li>
           <a href="https://forms.gle/zGm1F238RdrPtKNK6" style={{ textDecoration: "none", color: "inherit" }}>
             <Button
               rounded={"full"}
@@ -71,7 +71,7 @@ export default function Navbar() {
               Register
             </Button>
           </a>
-        // </li>
+        </li>
         <li>
           <Link href="/" onClick={handleCloseNavbar}>
             About
