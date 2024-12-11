@@ -58,22 +58,23 @@ export default function Navbar() {
         ref={ulRef}
       >
         <li>
-          <Button
-            rounded={"full"}
-            size={"lg"}
-            fontWeight={"normal"}
-            px={6}
-            className="register-btn"
-            color={"black"}
-            href="https://forms.gle/zGm1F238RdrPtKNK6"
-            _hover={{ color: "#4299e1" }}
-            // onClick={() => {
-            //   onOpen(); // Opens the modal
-            //   handleCloseNavbar(); // Closes the navbar
-            // }}
-          >
-            Register
-          </Button>
+          <Link href="https://forms.gle/zGm1F238RdrPtKNK6">
+              <Button
+                rounded={"full"}
+                size={"lg"}
+                fontWeight={"normal"}
+                px={6}
+                className="register-btn"
+                color={"black"}
+                _hover={{ color: "#4299e1" }}
+                // onClick={() => {
+                //   onOpen(); // Opens the modal
+                //   handleCloseNavbar(); // Closes the navbar
+                // }}
+              >
+                Register
+              </Button>
+          </Link>
         </li>
         <li>
           <Link href="/" onClick={handleCloseNavbar}>
