@@ -65,11 +65,12 @@ export default function Navbar() {
             px={6}
             className="register-btn"
             color={"black"}
+            href="https://forms.gle/zGm1F238RdrPtKNK6"
             _hover={{ color: "#4299e1" }}
-            onClick={() => {
-              onOpen(); // Opens the modal
-              handleCloseNavbar(); // Closes the navbar
-            }}
+            // onClick={() => {
+            //   onOpen(); // Opens the modal
+            //   handleCloseNavbar(); // Closes the navbar
+            // }}
           >
             Register
           </Button>
