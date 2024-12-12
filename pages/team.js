@@ -110,13 +110,13 @@ function Advisor() {
   const advisors = [
     {
       name: "Dr R N Patel",
-      designation: "Director",
+      designation: "Dean, IT",
       image: "/dr_rn_patel.jpg",
       linkedIn: "https://www.linkedin.com/in/rajesh-patel-b5144256/",
     },
     {
       name: "Dr Himanshu Soni",
-      designation: "Director",
+      designation: "Director, SOT",
       image: "/dr_himanshu_soni.jpeg",
       linkedIn: "https://www.linkedin.com/in/dr-himanshu-soni-4358916/",
     },
