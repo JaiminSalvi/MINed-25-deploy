@@ -31,7 +31,7 @@ export default function Prizes() {
           }}>
             <PrizeCard
               imgUrl={"/silver.svg"}
-              money={300}
+              money={750}
               text={"1st Runner-Up"}
               mgtop={16}
               order={2}
@@ -45,7 +45,7 @@ export default function Prizes() {
           >
             <PrizeCard
               imgUrl={"/gold.svg"}
-              money={500}
+              money={450}
               text={"Winner"}
               order={1}
               />
@@ -57,7 +57,7 @@ export default function Prizes() {
           }}>
             <PrizeCard
               imgUrl={"/bronze.svg"}
-              money={200}
+              money={300}
               text={"2nd Runner-Up"}
               mgtop={20}
               order={3}
