@@ -54,7 +54,7 @@ export default function Organizers() {
           order={[1, 2]}
           marginInline={"auto"}
           display="block"
-          width={["9xl", 36]}
+          width={["7x1", 50]}
         ></Image>
         <Text
           flex="2"
