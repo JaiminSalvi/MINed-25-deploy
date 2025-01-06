@@ -54,8 +54,7 @@ export default function Organizers() {
         //   order={[1, 2]}
         //   marginInline={"auto"}
         //   display="block"
-        //   width={["7x1", 50]}
-        // ></Image>
+        //   width={["7x1", 50]} ></Image>
         <Image
             // src="/Binghamton_University_logo.png"
             src="/binghamton.jpg"
