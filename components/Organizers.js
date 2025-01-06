@@ -46,7 +46,6 @@ export default function Organizers() {
 
       <Box marginBlock={"20"} gap={8} display={{ md: "flex" }} >
           <Image
-          // src="/Binghamton_University_logo.png"
           src="/binghamton.jpg"
           alt="Binghamton University Logo"
           filter="brightness(150%)"
