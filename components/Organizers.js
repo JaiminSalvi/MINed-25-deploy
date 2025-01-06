@@ -49,12 +49,12 @@ export default function Organizers() {
           // src="/Binghamton_University_logo.png"
           src="/binghamton.jpg"
           alt="Binghamton University Logo"
-          filter="brightness(250%)"
+          filter="brightness(150%)"
           flex="1"
           order={[1, 2]}
           marginInline={"auto"}
           display="block"
-          width={["7xl", 36]}
+          width={["9xl", 36]}
         ></Image>
         <Text
           flex="2"
