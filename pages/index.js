@@ -3,9 +3,10 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Banner from "../components/Banner";
 import Organizers from "../components/Organizers";
-import { Box, Container } from "@chakra-ui/react";
+import { Box, Heading, Container } from "@chakra-ui/react";
 import Faqs from "../components/Faqs";
 import Testimonials from "../components/Testimonial";
+import HackathonHistory from "@/components/Hackathon_History";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <Box marginBlock={16}>
           <Banner />
           <Organizers />
+          <HackathonHistory />
           <Testimonials />
           <Faqs />
         </Box>
