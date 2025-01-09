@@ -178,7 +178,7 @@ function Developers() {
   const developers = [
     {
       name: "Vanshil Vaghasiya",
-      image: "/Vanshil.jpeg",
+      image: "/image.png",
       linkedIn: "https://www.linkedin.com/in/vanshilpatel/",
     },
     {
