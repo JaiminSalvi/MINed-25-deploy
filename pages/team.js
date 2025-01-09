@@ -243,7 +243,7 @@ function WebDevelopers() {
     const developers = [
         {
             name: "Vanshil Vaghasiya",
-            image: "/Image.png",
+            image: "/image.png",
             linkedIn: "https://www.linkedin.com/in/vanshilpatel/",
         },
         {
