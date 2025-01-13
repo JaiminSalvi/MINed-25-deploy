@@ -35,7 +35,7 @@ export default function Contact() {
           <Tracks />
           <Mentors />
           <Schedule />
-          {/* <Sponsors /> */}
+          <Sponsors />
        
         </Box>
         <Footer />
