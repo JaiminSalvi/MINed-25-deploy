@@ -64,12 +64,26 @@ export default function Sponsors() {
         <GridItem
           cursor={"pointer"}
           display={"flex"}
-          marginLeft={"-30px"}
+          marginLeft={"-70px"}
           justifyContent={"center"}
           alignItems={"center"}
         >
           <Link href={"#"} target="">
             <Image src="/jklakshmi.png" height="48" 
+                marginBottom={"10px"}
+            />
+          </Link>
+        </GridItem>
+        <GridItem
+          cursor={"pointer"}
+          display={"flex"}
+          marginLeft={"-30px"}
+          marginTop={"10px"}
+          justifyContent={"center"}
+          alignItems={"center"}
+        >
+          <Link href={"#"} target="">
+            <Image src="/ai_city.png" height="48" 
                 marginBottom={"10px"}
             />
           </Link>
