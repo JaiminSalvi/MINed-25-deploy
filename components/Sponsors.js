@@ -64,7 +64,7 @@ export default function Sponsors() {
         <GridItem
           cursor={"pointer"}
           display={"flex"}
-          marginLeft={"-70px"}
+          sm:marginLeft={"-70px"}
           justifyContent={"center"}
           alignItems={"center"}
         >
