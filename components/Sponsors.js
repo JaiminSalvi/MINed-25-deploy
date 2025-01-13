@@ -51,7 +51,8 @@ export default function Sponsors() {
           justifyContent={"center"}
           alignItems={"center"}
           height="48"
-          marginRight="20"
+          marginLeft={"10px"}
+          marginRight={"20px"}
         >
           <Link href={"https://theintechgroup.com/"} target="_blank">
             <Image src="/intech.png"
@@ -64,7 +65,7 @@ export default function Sponsors() {
         <GridItem
           cursor={"pointer"}
           display={"flex"}
-          // sm:marginLeft={"-70px"}
+          //  :marginLeft={"-70px"}
           justifyContent={"center"}
           alignItems={"center"}
         >
