@@ -14,7 +14,7 @@ export default function Sponsors() {
   return (
     <Box  marginBlock={16} id="sponsors">
       <Heading color={"#4299E1"}  marginBlock={"8"}>Sponsors</Heading>
-      {/* <Grid
+      <Grid
         h="min-content"
         templateRows={{ sm: "repeat(8, 1fr)", md: "repeat(1, 1fr)" }}
         templateColumns={{ sm: "repeat(1, 1fr)", md: "repeat(4, 1fr)" }}
@@ -64,16 +64,17 @@ export default function Sponsors() {
         <GridItem
           cursor={"pointer"}
           display={"flex"}
+          marginLeft={"-30px"}
           justifyContent={"center"}
           alignItems={"center"}
         >
           <Link href={"#"} target="">
-            <Image src="/revelio.png" height="48" 
+            <Image src="/jklakshmi.png" height="48" 
                 marginBottom={"10px"}
             />
           </Link>
         </GridItem>
-      </Grid> */}
+      </Grid>
     </Box>
   );
 }
