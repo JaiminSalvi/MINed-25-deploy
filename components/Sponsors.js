@@ -1,106 +1,77 @@
-import {
-  Box,
-  Button,
-  Flex,
-  Grid,
-  GridItem,
-  Heading,
-  Image,
-  Text,
-} from "@chakra-ui/react";
+import { Box, Grid, GridItem, Heading, Image } from "@chakra-ui/react";
 import Link from "next/link";
 
 export default function Sponsors() {
   return (
-    <Box  marginBlock={16} id="sponsors">
-      <Heading color={"#4299E1"}  marginBlock={"8"}>Sponsors</Heading>
+    <Box marginBlock={16} id="sponsors">
+      <Heading color="#4299E1" marginBlock={8} textAlign="center">
+        Sponsors
+      </Heading>
       <Grid
-        h="min-content"
-        templateRows={{ sm: "repeat(8, 1fr)", md: "repeat(1, 1fr)" }}
-        templateColumns={{ sm: "repeat(1, 1fr)", md: "repeat(4, 1fr)" }}
-        display="flex"
-        flexWrap="wrap"
-        justifyContent="center"
-        alignItems="center"
-        gap={15}
-        bg={"white"}
-        borderRadius={"30px"}
+        templateRows={{ sm: "repeat(5, 1fr)", md: "repeat(2, 1fr)" }}
+        templateColumns={{
+          sm: "1fr",
+          md: "repeat(3, 1fr)",
+          lg: "repeat(4, 1fr)",
+        }}
+        gap={8}
+        bg="white"
+        borderRadius="30px"
+        padding={8}
       >
         <GridItem
-          cursor={"pointer"}
-          display={"flex"}
-          justifyContent={"center"}
-          alignItems={"center"}
-          height="48"
+          display="flex"
+          justifyContent="center"
+          alignItems="center"
+          cursor="pointer"
         >
-          <Link href={"https://cactusglobal.com/"} target="_blank">
-            <Image src="/cactus.png" scale={1.5} 
-            // filter="brightness(00%)"
-            
-            />
+          <Link href="https://cactusglobal.com/" target="_blank">
+            <Image src="/cactus.png" alt="Cactus Global" />
           </Link>
         </GridItem>
 
+        <GridItem
+          display="flex"
+          justifyContent="center"
+          alignItems="center"
+          cursor="pointer"
+        >
+          <Link href="https://theintechgroup.com/" target="_blank">
+            <Image src="/intech.png" alt="Intech Group" />
+          </Link>
+        </GridItem>
 
-       
-        
-        <br/>
         <GridItem
-          cursor={"pointer"}
-          display={"flex"}
-          justifyContent={"center"}
-          alignItems={"center"}
-          height="48"
-          marginLeft={"10px"}
-          marginRight={"20px"}
+          display="flex"
+          justifyContent="center"
+          alignItems="center"
+          cursor="pointer"
         >
-          <Link href={"https://theintechgroup.com/"} target="_blank">
-            <Image src="/intech.png"
-            // filter="brightness(150%)"
-            // bg="white"
-            
-            />
+          <Link href="#" target="">
+            <Image src="/jklakshmi.png" alt="JK Lakshmi Cement" />
           </Link>
         </GridItem>
+
         <GridItem
-          cursor={"pointer"}
-          display={"flex"}
-          //  :marginLeft={"-70px"}
-          justifyContent={"center"}
-          alignItems={"center"}
+          display="flex"
+          justifyContent="center"
+          alignItems="center"
+          cursor="pointer"
         >
-          <Link href={"#"} target="">
-            <Image src="/jklakshmi.png" height="48" 
-                marginBottom={"10px"}
-            />
+          <Link href="#" target="">
+            <Image src="/ai_city.png" alt="AI City" />
           </Link>
         </GridItem>
+
         <GridItem
-          cursor={"pointer"}
-          display={"flex"}
-          marginLeft={"-30px"}
-          marginTop={"10px"}
-          justifyContent={"center"}
-          alignItems={"center"}
+          display="flex"
+          justifyContent="center"
+          alignItems="center"
+          cursor="pointer"
+          background={"black"}
         >
-          <Link href={"#"} target="">
-            <Image src="/ai_city.png" height="48" 
-                marginBottom={"10px"}
-            />
-          </Link>
-        </GridItem>
-        <GridItem
-          cursor={"pointer"}
-          display={"flex"}
-          marginLeft={"-30px"}
-          marginTop={"10px"}
-          justifyContent={"center"}
-          alignItems={"center"}
-        >
-          <Link href={"#"} target="">
-            <Image src="/Glitchover_logo_new_Stacked.png" height="48" 
-                marginBottom={"10px"}
-            />
+          <Link href="#" target="">
+            <Image src="/Glitchover_logo_new_Stacked.png" alt="GlitchOver" />
           </Link>
         </GridItem>
       </Grid>
