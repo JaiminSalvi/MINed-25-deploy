@@ -47,7 +47,7 @@ export default function Sponsors() {
           alignItems="center"
           cursor="pointer"
         >
-          <Link href="#" target="">
+          <Link href="https://www.jklakshmicement.com/" target="">
             <Image src="/jklakshmi.png" alt="JK Lakshmi Cement" />
           </Link>
         </GridItem>
@@ -70,7 +70,7 @@ export default function Sponsors() {
           cursor="pointer"
           background={"black"}
         >
-          <Link href="#" target="">
+          <Link href="https://www.glitchover.com/" target="">
             <Image src="/Glitchover_logo_new_Stacked.png" alt="GlitchOver" />
           </Link>
         </GridItem>
