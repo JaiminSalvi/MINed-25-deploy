@@ -89,6 +89,20 @@ export default function Sponsors() {
             />
           </Link>
         </GridItem>
+        <GridItem
+          cursor={"pointer"}
+          display={"flex"}
+          marginLeft={"-30px"}
+          marginTop={"10px"}
+          justifyContent={"center"}
+          alignItems={"center"}
+        >
+          <Link href={"#"} target="">
+            <Image src="/Glitchover_logo_new_Stacked.png" height="48" 
+                marginBottom={"10px"}
+            />
+          </Link>
+        </GridItem>
       </Grid>
     </Box>
   );
