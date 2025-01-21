@@ -53,18 +53,18 @@ export default function Home() {
                         textAlign={["center"]}
                         paddingBlock={4}
                     >
-                        Team Members
+                        MINeD Website Development Team
                     </Heading>
-                    <Developers />
+                    <WebDevelopers />
                     <Heading
                         size={"lg"}
                         color={"blue.400"}
                         textAlign={["center"]}
                         paddingBlock={4}
                     >
-                        MINeD Website Development Team
+                        Team Members
                     </Heading>
-                    <WebDevelopers />
+                    <Developers />
                 </Box>
                 <Footer />
             </Container>
