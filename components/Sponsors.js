@@ -59,7 +59,7 @@ export default function Sponsors() {
           cursor="pointer"
         >
           <Link href="#" target="">
-            <Image src="/ai_city.png" alt="AI City" />
+            <Image src="/WhatsApp Image 2025-01-22 at 12.09.06_829cad59.jpg" alt="AI City" />
           </Link>
         </GridItem>
 
