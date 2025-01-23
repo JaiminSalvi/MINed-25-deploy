@@ -80,7 +80,7 @@ export default function CallToActionWithVideo() {
               onClick={() => window.open("https://discord.gg/rm7kXmhJEX", "_blank")}
             >
               Join Discord
-            </Button>;
+            </Button>
           </Stack>
         </Stack>
         <Flex
