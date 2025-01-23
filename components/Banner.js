@@ -59,17 +59,7 @@ export default function CallToActionWithVideo() {
             spacing={{ base: 4, sm: 6 }}
             direction={{ base: "column", sm: "row" }}
           >
-            <Button
-              rounded={"full"}
-              colorScheme={"blue"}
-              size={"lg"}
-              fontWeight={"normal"}
-              px={6}
-              leftIcon={<FaDiscord h={4} w={4} color={"gray.300"} />}
-              onClick={() => window.open("https://discord.gg/rm7kXmhJEX", "_blank")}
-            >
-              Join Discord
-            </Button>
+            
           </Stack>
         </Stack>
         <Flex
