@@ -26,7 +26,7 @@ export default function Sponsors() {
           cursor="pointer"
         >
           <Link href="https://cactusglobal.com/" target="_blank">
-            <Image src="/cactus.png" alt="Cactus Global" />
+            <Image src="https://cactusglobal.com/wp-content/uploads/2020/02/Labs-Tagline.jpg" alt="Cactus Global" />
           </Link>
         </GridItem>
 
@@ -49,6 +49,21 @@ export default function Sponsors() {
         >
           <Link href="https://www.jklakshmicement.com/" target="">
             <Image src="/jklakshmi.png" alt="JK Lakshmi Cement" />
+          </Link>
+        </GridItem>
+        
+
+        <GridItem
+          display="flex"
+          justifyContent="center"
+          alignItems="center"
+          background={"black"}
+          cursor="pointer"
+        >
+          <Link href="https://udaipurcement.com/" target="">
+            <Image src="https://udaipurcement.com/wp-content/uploads/2024/05/UCWL-Logo-White-1-300x50-1.png" alt="UCWL"
+            width={"250px"}
+            />
           </Link>
         </GridItem>
 
