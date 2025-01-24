@@ -75,7 +75,9 @@ blockquote span {
   font-weight: 600;
   padding-left: 2rem;
 }
-
+.binghamton_logo{
+  width: 10rem;
+}
 .primary-nav {
   display: flex;
   justify-content: space-between;
