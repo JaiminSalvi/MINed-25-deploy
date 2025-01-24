@@ -43,7 +43,7 @@ export default function Navbar() {
         <Link href={"/"}>
           <img
             className="logo-image"
-            style={{ height: "80px", width: "500px" }}
+            style={{ height: "95px", width: "1000px" }}
             src="/logo.png"
             alt="Menu"
           />

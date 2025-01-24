@@ -7,11 +7,12 @@ export default function Organizers() {
         About Organizers
       </Heading>
       <Box>
-        <Box display={{ md: "flex" }} gap={[16, 8]}>
+        <Box display={{ md: "flex" }} gap={[16, 8]} >
           <Image
             src="/Nirma_logo.jpg"
             alt="Nirma University Logo"
             flex="1"
+            
             marginInline="auto"
             order={[1, 1]}
             display="block"
@@ -46,14 +47,18 @@ export default function Organizers() {
 
       <Box marginBlock={"20"} gap={8} display={{ md: "flex" }} >
           <Image
+          className="binghamton_logo"
           src="/binghamton.jpg"
           alt="Binghamton University Logo"
-          filter="brightness(150%)"
+          filter="brightness(130%)"
           flex="1"
           order={[1, 2]}
           marginInline={"auto"}
+          background={"white"}
+          // padding={"2px"}
           display="block"
-          width={["7x1", 75]} ></Image>
+          // width={["7x1", 75]}
+           ></Image>
 
         <Text
           flex="2"
