@@ -55,8 +55,9 @@ export default function CallToActionWithVideo() {
               Participate and win exciting prizes
             </Text>
           </Heading>
-          <Text fontSize={"lg"} fontWeight="medium" color="gray.100">
-            📅 January 30 - February 01, 2025
+          <Text fontSize={"lg"} fontWeight="medium" color="gray.100" display={"flex"} alignItems={"center"} gap={"10px"}>
+            <Image src="/icons_icon.png" height={"2.5rem"}/>
+            January 30 - February 01, 2025
           </Text>
           <Stack
             spacing={{ base: 4, sm: 6 }}
