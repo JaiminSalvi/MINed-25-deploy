@@ -103,7 +103,7 @@ export default function Mentors() {
         <Box marginBlock={16} id="mentors">
             <Heading color={"#4299E1"} marginBlock={"8"}>
                 {" "}
-                Past Mentors
+                Mentors
             </Heading>
             <Grid
                 alignItems="center"

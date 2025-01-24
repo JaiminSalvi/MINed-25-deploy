@@ -6,31 +6,33 @@ import { useCountdown } from "./Timerhook";
 
 const ExpiredNotice = () => {
   return (
-    // <Box zIndex={100}  color="black" fontWeight="black" bgColor="blue.200" bgGradient="linear(90deg, hsla(210, 90%, 80%, 1) 0%, hsla(212, 93%, 49%, 1) 100%)" className="expired-notice">
-    //   <span color="black" >  The MINeD'24 has officially begun. Let the coding frenzy commence! </span>
-    // </Box>
-//     <Box
-//        zIndex={100}
-//        fontWeight="black"
-//        bgColor="blue.200"
-//        bgGradient="linear(90deg, hsla(210, 90%, 80%, 1) 0%, hsla(212, 93%, 49%, 1) 100%)"
-//        className="expired-notice"
-//        color="black" // or textColor="black"
-// >
-//   <span>The MINeD'24 has officially begun. Let the coding frenzy commence!</span>
-//</Box
+    <>
+    {/* <Box zIndex={100}  color="black" fontWeight="black" bgColor="blue.200" bgGradient="linear(90deg, hsla(210, 90%, 80%, 1) 0%, hsla(212, 93%, 49%, 1) 100%)" className="expired-notice">
+      <span color="black" >  The MINeD'24 has officially begun. Let the coding frenzy commence! </span>
+    </Box>
     <Box
-  zIndex={100}
-  fontWeight="black"
-  bgColor="blue.200"
-  bgGradient="linear(90deg, hsla(210, 90%, 80%, 1) 0%, hsla(212, 93%, 49%, 1) 100%)"
-  className="expired-notice"
-  color="black"
+       zIndex={100}
+       fontWeight="black"
+       bgColor="blue.200"
+       bgGradient="linear(90deg, hsla(210, 90%, 80%, 1) 0%, hsla(212, 93%, 49%, 1) 100%)"
+       className="expired-notice"
+       color="black" // or textColor="black"
 >
-  The MINeD'24 has officially begun. Let the coding frenzy commence!
-</Box>
+  <span>The MINeD'24 has officially begun. Let the coding frenzy commence!</span>
+</Box> */}
+     <Box
+   zIndex={100}
+   fontWeight="black"
+   bgColor="blue.200"
+   bgGradient="linear(90deg, hsla(210, 90%, 80%, 1) 0%, hsla(212, 93%, 49%, 1) 100%)"
+   className="expired-notice"
+   color="black"
+ >
+   The MINeD'24 has officially begun. Let the coding frenzy commence!
+ </Box>
+</>
 
-  );
+);
 };
 
 const DateTimeDisplay = ({ value, type, isDanger }) => {
