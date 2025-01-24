@@ -17,9 +17,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Container maxW={"container.xl"} marginInline="auto">
+      <Container 
+      maxW={"container.xl"} 
+      marginInline="auto">
         <Navbar />
-        <Box marginBlock={16}>
+        <Box marginBlock={4}>
           <Banner />
           <Organizers />
           <HackathonHistory />

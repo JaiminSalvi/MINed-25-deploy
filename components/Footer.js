@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="footer container">
       <div className="logo">
-        <img className="logo-image" style={{ height: "80px", width: "500px" }} src="/logo.png" alt="Menu" />
+        <img className="logo-image" style={{ height: "95px", width: "1000px" }} src="/logo.png" alt="Menu" />
       </div>
 
       <div>
