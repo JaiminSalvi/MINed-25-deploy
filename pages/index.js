@@ -3,12 +3,14 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Banner from "../components/Banner";
 import Organizers from "../components/Organizers";
-import { Box, Heading, Container } from "@chakra-ui/react";
+import { Box, Heading, Container, Tag } from "@chakra-ui/react";
 import Faqs from "../components/Faqs";
 import Testimonials from "../components/Testimonial";
 import HackathonHistory from "@/components/Hackathon_History";
+import CountdownTimer from "@/components/Timer";
 
 export default function Home() {
+  const targetDate = "2025-01-30T00:00:00";
   return (
     <>
       <Head>
@@ -17,6 +19,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      {/* <CountdownTimer targetDate={targetDate}/> */}
       <Container 
       maxW={"container.xl"} 
       marginInline="auto">

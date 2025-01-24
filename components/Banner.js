@@ -55,12 +55,13 @@ export default function CallToActionWithVideo() {
               Participate and win exciting prizes
             </Text>
           </Heading>
+          <Text fontSize={"lg"} fontWeight="medium" color="gray.100">
+            📅 January 30 - February 01, 2025
+          </Text>
           <Stack
             spacing={{ base: 4, sm: 6 }}
             direction={{ base: "column", sm: "row" }}
-          >
-            
-          </Stack>
+          ></Stack>
         </Stack>
         <Flex
           flex={1}
