@@ -143,16 +143,19 @@ function Advisor() {
         },
         {
             name: "Dr Sangwon Yoon",
+            designation: "Professor, Binghamton University",
             image: "/dr_yoon.jpg",
             linkedIn: "https://www.linkedin.com/in/sang-won-yoon-bb886722/",
         },
         {
             name: "Dr Priyank Thakkar",
+            designation: "Associate Professor",
             image: "/priyank_thakkar.jpg",
             linkedIn: "https://www.linkedin.com/in/priyank-thakkar-4701689b/",
         },
         {
             name: "Dr Swati Jain",
+            designation: "Associate Professor",
             image: "/swati_jain.jpg",
             linkedIn: "https://www.linkedin.com/in/swati-jain-54845311/",
         },
