@@ -8,6 +8,7 @@ import Faqs from "../components/Faqs";
 import Testimonials from "../components/Testimonial";
 import HackathonHistory from "@/components/Hackathon_History";
 import CountdownTimer from "@/components/Timer";
+import HackathonWinners from "@/components/Hackathon_winners";
 
 export default function Home() {
   const targetDate = "2025-01-30T00:00:00";
@@ -28,6 +29,7 @@ export default function Home() {
           <Banner />
           <Organizers />
           <HackathonHistory />
+          <HackathonWinners/>
           <Testimonials />
           <Faqs />
         </Box>
