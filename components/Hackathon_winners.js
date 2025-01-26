@@ -213,7 +213,7 @@ const hackathonData = {
         marginTop={"6rem"}
       >
         <chakra.h1 fontSize={48} fontWeight="bold" mb={8} color="blue.500">
-          Hackathon Winners 
+          Previous MINeD Winners 
         </chakra.h1>
   
         <Box w="90%" maxW="1200px" mx="auto">
