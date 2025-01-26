@@ -34,7 +34,7 @@ export default function CallToActionWithVideo() {
       >
         <Stack flex={1} spacing={{ base: 5, md: 10 }}>
           <Heading lineHeight={1.1} fontWeight={600}>
-            <Text as={"span"} fontSize={["lg", "xl"]} color={""} fontWeight="black">
+            <Text as={"span"} fontSize={["lg", "xl"]} color={"blue.400"} fontWeight="black">
               5th edition of
             </Text>
             <Text
