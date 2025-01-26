@@ -5,6 +5,7 @@ import Fonts from "../components/Fonts";
 import NextNProgress from "nextjs-progressbar";
 import { Box } from "@chakra-ui/react";
 import CountDownTimer from "../components/Timer";
+
 const theme = extendTheme({
   colors: {
     brand: {
