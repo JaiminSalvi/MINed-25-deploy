@@ -37,6 +37,7 @@ export default function CallToActionWithVideo() {
             <Text as={"span"} fontSize={["lg", "xl"]} color={"blue.400"} fontWeight="black">
               5th edition of
             </Text>
+            <br/>
             <Text
               fontSize={"5xl"}
               as={"span"}
@@ -51,7 +52,7 @@ export default function CallToActionWithVideo() {
                 zIndex: -1,
               }}
             >
-              MINeD Hackathon 2025
+              MINeD Hackathon
             </Text>
             <br />
             <Text as={"span"} fontSize={["lg", "xl"]} fontWeight="black">
