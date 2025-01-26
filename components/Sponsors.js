@@ -80,6 +80,18 @@ export default function Sponsors() {
             <Image src="/Glitchover_logo_new_Stacked.png" alt="GlitchOver" />
           </Link>
         </GridItem>
+
+        <GridItem
+          display="flex"
+          justifyContent="center"
+          alignItems="center"
+          cursor="pointer"
+          // background={"black"}
+        >
+          <Link href="https://www.crestdata.ai/" target="">
+            <Image src="https://static1.squarespace.com/static/65e76fb59ac8851284f606e6/t/66330e336badcd10b5800caa/1714622009606/Crest+Data+Systems+Logo+for+Blog+Post.png?format=1500w" alt="GlitchOver" />
+          </Link>
+        </GridItem>
       </Grid>
     </Box>
   );
