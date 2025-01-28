@@ -21,7 +21,7 @@ export default function Tracks() {
         <GridItem p="4">
           <TrackCard
             imageUrl="https://image.lexica.art/full_webp/1918c967-5c8d-4d1e-9dca-4a4eee0e03bc"
-            trackName="Playpulse AI-Powered Highlight Extraction and Player Tracking"
+            trackName="Playpulse AI-Powered Highlight Extraction and Player Tracking By Glitchover"
           />
         </GridItem>
         <GridItem p="4">
