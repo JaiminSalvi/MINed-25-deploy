@@ -209,6 +209,12 @@ function Developers() {
             image: "/shubh_patel.jpg",
             linkedIn: "https://www.linkedin.com/in/shubh26",
         },
+        {
+            name: "Laksh Trivedi",
+            image: "",
+            linkedIn: "https://www.linkedin.com/in/laksh-trivedi-bb9459258",
+        },
+        
     ];
     return (
         <Grid
