@@ -27,32 +27,32 @@ export default function Tracks() {
         <GridItem p="4">
           <TrackCard
             imageUrl="https://image.lexica.art/full_webp/280c2973-c142-45f5-8c57-193bbbd4d229"
-            trackName="Academic Research Remix"
+            trackName="Academic Research Remix By Cactus Communications"
           />
         </GridItem>
         
         <GridItem p="4">
           <TrackCard
             imageUrl="https://image.lexica.art/full_webp/19971cd7-4fdf-4bc0-a084-09979f7c38ec"
-            trackName="Smart Route Optimizer"
+            trackName="Smart Route Optimizer By Intech Creative Services"
           />
         </GridItem>
         <GridItem p="4">
           <TrackCard
             imageUrl="https://image.lexica.art/full_webp/d38f6e05-860f-47bf-90ce-85864bbd86bb"
-            trackName="Securing Networks/Systems Through Artificial Intelligence and Data Science"
+            trackName="Securing Networks/Systems Through Artificial Intelligence and Data Science By Crest Data Systems"
           />
         </GridItem>
         <GridItem p="4">
           <TrackCard
             imageUrl="https://image.lexica.art/full_webp/4d303f3d-8c9b-4066-bcea-03a63824e75a"
-            trackName="Efficient Data Extraction From Financial Reports"
+            trackName="Efficient Data Extraction From Financial Reports By AI City LLP"
           />
         </GridItem>
         <GridItem p="4">
           <TrackCard
             imageUrl="https://image.lexica.art/full_webp/27b01d46-fcb2-4e35-806d-0cfccea1319f"
-            trackName="Manufacturing Use Case Solution With AI "
+            trackName="Manufacturing Use Case Solution With AI By JK Lakshmi Cements and Udaipur Cements"
           />
         </GridItem>
       </Grid>
