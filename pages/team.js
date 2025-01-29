@@ -211,7 +211,7 @@ function Developers() {
         },
         {
             name: "Laksh Trivedi",
-            image: "",
+            image: "/IMG-20250128-WA0001.jpg",
             linkedIn: "https://www.linkedin.com/in/laksh-trivedi-bb9459258",
         },
         
